@@ -40,6 +40,7 @@ class App extends Component {
       return (
         <SingleTodo
           todo={e}
+          key={i}
           delete={() => this.deleteTodo(i)}
           />
       )
